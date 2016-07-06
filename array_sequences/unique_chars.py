@@ -1,5 +1,4 @@
 def is_unique(str1):
-
     mySet = set()
 
     for letter in str1:
@@ -8,7 +7,6 @@ def is_unique(str1):
         else:
             mySet.add(letter)
     return True
-
 
 
 print is_unique('asfd')
