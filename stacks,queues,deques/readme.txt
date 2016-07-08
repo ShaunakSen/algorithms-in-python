@@ -22,3 +22,8 @@ Balanced parenthesis
 
 Every parenthesis should be closed in reverse order in which it is opened
 
+
+
+Queue using 2 stacks
+
+
