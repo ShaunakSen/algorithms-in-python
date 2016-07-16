@@ -6,8 +6,10 @@ def anagram(str1, str2):
     print str1, str2
     sortedList1 = sorted(str1)
     sortedList2 = sorted(str2)
+    print sortedList1, sortedList2
     sortedStr1 = ''.join(sortedList1)
     sortedStr2 = ''.join(sortedList2)
+    print sortedStr1, sortedStr2
     print sortedStr1 == sortedStr2
 
 
