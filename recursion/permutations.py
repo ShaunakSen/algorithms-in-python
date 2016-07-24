@@ -11,3 +11,4 @@ def permutations(s):
 
 
 print permutations("abc")
+print enumerate("abc")

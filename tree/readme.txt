@@ -13,3 +13,16 @@ If each node has a maxm of 2 children its a binary tree
 Recursive Defn : A tree is either empty or consists of a root and zero or more subtrees, each of which
 is also a tree
 
+Binary Search Trees
+_______________________
+
+BST is a way to map from a key to a value
+
+They allow fast lookup, addition and removal of items, and can be used to implement
+either dynamic sets of items, or lookup tables that allow finding an item by its key
+(e.g., finding the phone number of a person by name).
+
+See wikipedia article
+
+BST property: keys less than parent are found in left subtree.
+keys > parent are found in right subtree
