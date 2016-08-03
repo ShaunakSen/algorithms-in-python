@@ -21,7 +21,7 @@ n = len(stations)
 
 stations.insert(0, start)
 stations.append(dest)
-maxdistance = 400
+maxdistance = 200
 print stations
 
 print minRefills(stations, n, maxdistance)
