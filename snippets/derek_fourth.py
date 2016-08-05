@@ -48,7 +48,7 @@ print isfloat("3.14sd")
 def CeasersCipher(myStr, key):
     finalString = ""
     if key > 26:
-        key = 26
+        key = 25
 
     for char in myStr:
         if char.islower():
@@ -84,4 +84,4 @@ def CeasersCipher(myStr, key):
 
 
 
-print CeasersCipher("Shaunak Sen", 1)
+print CeasersCipher("Shaunak Sen", 100)
