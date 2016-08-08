@@ -64,8 +64,8 @@ with open("mydata.txt", mode="w") as myFile:
 # default is read mode
 
 # read(), readline(), raedlines() methods
-with open("mydata.txt") as myFile:
-    print myFile.read()
+# with open("mydata.txt") as myFile:
+#     print myFile.read()
 
 # print myFile.closed
 #
@@ -97,3 +97,15 @@ def fibo(num):
 
 for i in range(1, 10):
     print fibo(i)
+
+# READ ONE LINE AT A TIME
+
+with open('readme.txt') as myFile:
+    lineNum = 1
+    while True:
+        line = myFile.readline()
+        if not line:
+            break
+        print "Line: ", lineNum, line
+        lineNum += 1
+
