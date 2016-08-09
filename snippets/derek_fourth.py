@@ -83,5 +83,4 @@ def CeasersCipher(myStr, key):
     return finalString
 
 
-
 print CeasersCipher("Shaunak Sen", 100)
