@@ -68,6 +68,10 @@ class Reptile(Animal):
         return sum
 
 
+def getBirthType(theObject):
+    print "the {} is {}".format(type(theObject).__name__, theObject.birthType)
+
+
 def main():
     animal1 = Animal("born alive")
     print animal1.birthType
@@ -84,6 +88,9 @@ def main():
     print reptile1
 
     print reptile1.sumAll(1, 2, 3, 4)
+
+    getBirthType(mamal1)
+    getBirthType(reptile1)
 
 
 main()
