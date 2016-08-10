@@ -35,6 +35,7 @@ class Square(object):
     @height.setter
     def height(self, value):
         if value:
+            print "Setting the height..."
             self.__height = value
         else:
             print "Plz only enter nos"
@@ -47,12 +48,13 @@ class Square(object):
     @width.setter
     def width(self, value):
         if value:
+            print "Setting the width..."
             self.__width = value
         else:
             print "Plz only enter nos"
 
-    # def area(self):
-    #     return int(self.__width) * int(self.__height)
+    def area(self):
+        return int(self.__width) * int(self.__height)
 
 
 def main():
@@ -64,5 +66,7 @@ def main():
 
     print "Height =", miniSquare.height
     print "Width =", miniSquare.width
-    # print "Area =", miniSquare.area()
+    print "Area =", miniSquare.area()
+
+
 main()
