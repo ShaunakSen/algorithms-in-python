@@ -12,3 +12,6 @@ def permutations(s):
 
 print permutations("abc")
 print enumerate("abc")
+
+# for i,let in enumerate("abcd"):
+#     print i, let

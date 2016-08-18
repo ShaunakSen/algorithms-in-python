@@ -2,7 +2,7 @@ def balanced_check(s):
     if len(s) % 2 != 0:
         return False
     opening = set('([{')
-    matches = {('(', ')'), ('{', '}'), ('[', ']')}
+    matches = [('(', ')'), ('{', '}'), ('[', ']')]
 
     stack = []
 
@@ -21,4 +21,4 @@ def balanced_check(s):
     return True
 
 
-print balanced_check('[]()[{()}]')
+print balanced_check('[]()[{()}][}')

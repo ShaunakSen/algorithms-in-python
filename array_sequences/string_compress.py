@@ -7,6 +7,7 @@ def compress(str1):
             count[character] = 1
 
     newStr = ""
+    print count
     for item in count:
         newStr = newStr + item + str(count[item])
     return newStr
