@@ -63,7 +63,7 @@ with open("mydata.txt", mode="w") as myFile:
 
 # default is read mode
 
-# read(), readline(), raedlines() methods
+# read(), readline(), readlines() methods
 # with open("mydata.txt") as myFile:
 #     print myFile.read()
 

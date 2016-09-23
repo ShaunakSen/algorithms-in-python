@@ -58,6 +58,8 @@ sampleList = [1, 2, 3, 4, 5]
 
 powerList = [[math.pow(m, 1), math.pow(m, 2), math.pow(m, 3)]
              for m in sampleList]
+
+print "Power List is: ", powerList
 for power in powerList:
     print power
 

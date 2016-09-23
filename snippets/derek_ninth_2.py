@@ -29,6 +29,7 @@ class Battle(object):
                 print "Game Over"
                 break
 
+    # Class method.. does not need an object ie no need of self
     @staticmethod
     def getAttackResult(warriorA, warriorB):
         warriorAAttackAmt = warriorA.attack()

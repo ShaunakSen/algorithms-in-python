@@ -1,8 +1,8 @@
 # class Dog:
-#     def __init__(self, name="", height=0, weigth=0):
+#     def __init__(self, name="", height=0, weight=0):
 #         self.name = name
 #         self.height = height
-#         self.weight = weigth
+#         self.weight = weight
 #
 #     def run(self):
 #         print "{} the dog is running".format(self.name)
